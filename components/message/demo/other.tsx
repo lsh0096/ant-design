@@ -7,14 +7,14 @@ const App: React.FC = () => {
   const success = () => {
     messageApi.open({
       type: 'success',
-      content: 'This is a success message',
+      content: '계정이 성공적으로 생성되었습니다.',
     });
   };
 
   const error = () => {
     messageApi.open({
       type: 'error',
-      content: 'This is an error message',
+      content: '계정 생성에 실패했습니다. 다시 한번 시도해주세요.',
     });
   };
 
